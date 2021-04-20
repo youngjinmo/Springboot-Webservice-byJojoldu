@@ -1,6 +1,5 @@
 package com.project.springbootjojoldu.web.dto;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
 import com.project.springbootjojoldu.domain.posts.Posts;
 import lombok.Builder;
 import lombok.Getter;
