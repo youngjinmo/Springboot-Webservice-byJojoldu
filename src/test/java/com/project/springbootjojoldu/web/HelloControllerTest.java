@@ -1,5 +1,6 @@
 package com.project.springbootjojoldu.web;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +22,7 @@ class HelloControllerTest {
     private MockMvc mvc;
 
     @Test
+    @DisplayName("hello 컨트롤러 테스트")
     void hello() throws Exception {
         String hello = "hello";
         mvc.perform(get("/hello"))
