@@ -2,7 +2,6 @@ package com.project.springbootjojoldu.web;
 
 import com.project.springbootjojoldu.config.auth.LoginUser;
 import com.project.springbootjojoldu.config.auth.dto.SessionUser;
-import com.project.springbootjojoldu.domain.user.User;
 import com.project.springbootjojoldu.service.posts.PostsService;
 import com.project.springbootjojoldu.web.dto.PostsResponseDto;
 import lombok.RequiredArgsConstructor;
@@ -11,7 +10,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpSession;
 
 @RequiredArgsConstructor
