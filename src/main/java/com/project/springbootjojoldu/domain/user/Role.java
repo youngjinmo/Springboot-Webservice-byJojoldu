@@ -1,7 +1,6 @@
 package com.project.springbootjojoldu.domain.user;
 
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 
 @Getter
